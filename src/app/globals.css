@@ -38,6 +38,10 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --primary-color: #348feb;
+  --highlight-color: #519fed;
+  --secondary-color: #077ae8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -85,14 +89,17 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-family: "Century Gothic";
+  font-size: 15pt;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
 }
 
 a {

@@ -1,0 +1,29 @@
+.NavBar {
+    background-color: var(--primary-color);
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.NavBar .active {
+    background-color: var(--highlight-color);
+}
+
+.NavBar a {
+    float: left;
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.NavBar a:hover {
+    background-color: var(--secondary-color);
+}
+
+.NavBar p {
+    text-align: center;
+}

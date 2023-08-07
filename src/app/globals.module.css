@@ -1,21 +1,28 @@
 .banner {
     width: 100%;
     height: 200px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 .outerContainer {
     width: 80%;
+    margin-bottom: 5rem;
+    border: 1px solid black;
 }
 
 .content {
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    border: 1px solid white;
+    background-color: var(--highlight-color);
+    /* border-radius: 5px; */
+    /* border: 1px solid black; */
     padding: 2rem;
 }
 
 .title {
     margin-bottom: 1rem;
     font-size: 30pt;
+}
+
+.subheading {
+    margin-bottom: 0.5rem;
+    font-size: 20pt;
 }

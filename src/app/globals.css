@@ -95,11 +95,14 @@ p {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background: rgb(6,39,126);
+  background: linear-gradient(223deg, rgba(6,39,126,1) 0%, rgba(0,212,255,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a {

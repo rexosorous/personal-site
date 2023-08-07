@@ -1,9 +1,9 @@
 .NavBar {
     background-color: var(--primary-color);
     overflow: hidden;
-    border-radius: 5px;
-    border: 1px solid white;
-    margin-bottom: 1rem;
+    /* border-radius: 5px; */
+    /* border: 1px solid black; */
+    /* margin-bottom: 1rem; */
 }
 
 .NavBar .active {
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .NavBar a:hover {

@@ -5,7 +5,6 @@ import NavBar from './components/NavBar'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <NavBar currentPage="Home" />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

@@ -5,7 +5,6 @@ import globalCSS from '../globals.module.css'
 export default function NewPage() {
     return (
         <div>
-            <NavBar currentPage="NewPage" />
             <div className={globalCSS.content}>
                 <p className={globalCSS.title}>Page Name</p>
                 <p>

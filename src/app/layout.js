@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import styles from './globals.module.css'
+import NavBar from './components/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className={styles.outerContainer}>
           <img className={styles.banner} src="" alt="banner"></img>
+          <NavBar />
           {children}
         </div>
       </body>
